@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset="utf-8">
+ <title>JavaScript program</title>
+ </head>
+ <body>
+     <script>
+     function array_range(start, len) 
+     {
+		var arr = new Array(len);
+		for (var i = 0; i < len; i++, start++) 
+        {
+			arr[i] = start;
+		}
+      		return arr;
+}
+
+
+alert(array_range(1, 4));
+
+alert(array_range(-6, 4));
+     </script>
+</body>
+ </html>
